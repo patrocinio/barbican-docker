@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: barbican-svc
+spec:
+  ports:
+  - port: 9931  
+    targetPort: 9931
+    protocol: TCP
+  externalIPs:
+  - 23.246.208.98
+  - 23.246.208.115 
+  selector:
+    app: barbican
