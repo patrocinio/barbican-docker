@@ -4,8 +4,8 @@ metadata:
   name: barbican-svc
 spec:
   ports:
-  - port: 9931  
-    targetPort: 9931
+  - port: 9311  
+    targetPort: 9311
     protocol: TCP
   externalIPs:
   - 23.246.208.98
